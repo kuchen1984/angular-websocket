@@ -332,9 +332,9 @@
       }
       Socket = Socket || $window.WebSocket || $window.MozWebSocket;
 
-      if (protocols) {
-        return new Socket(url, protocols);
-      }
+      // if (protocols) {
+      //   return new Socket(url, protocols);
+      // }
       return new Socket(url);
     };
   }
